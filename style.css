@@ -3,12 +3,13 @@
 *::before {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', arial;
 }
 
 .header {
     display: flex;
     align-items: center;
-    background-color: aqua;
+    background-color: #1F2937;
 }
 
 .logo img {
@@ -19,19 +20,16 @@
 
 .nav-menu {
     display: flex;
-    align-items: center;
-    padding: 0px 90px 0px 0px;
+    margin-left: auto;
+    padding-right: 100px;
 }
 
-.nav-menu ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
-
-.nav-menu li {
-    padding: 20px;
+.nav-menu a {
+    margin-left: auto;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px;
 }
 
 /* title */
@@ -41,22 +39,55 @@
     justify-content: center;
     align-items: center;
     border-bottom: solid gold 0.5px;
+    padding: 90px;
+    background-color: #1F2937;
 }
 
 .typograph {
     display: flex;
+    flex-basis: 500px;
     flex-direction: column;
-    flex: 1 1 auto;
-    align-items: flex-start;
-    gap: 20px;
-    padding-left: 32px;
+    padding: 0px 72px 0px 0px;
+    color: aliceblue;
+}
+
+.typograph h1 {
+    padding: 0px 72px 10px 0px;
+}
+
+.typograph button {
+    display: block;
+    background: #3882f6;
+    border: none;
+    border-radius: 8px;
+    width: 110px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
 }
 
 .main-img {
     object-fit: cover;
     flex: 1 1 auto;
-    max-width: 300px;
-    border: 15px solid blueviolet;
-    border-radius: 50%;
-    box-shadow: 2px 1px 1px;
+    max-width: 500px;
+}
+
+/* Gallery */
+
+.gallery {
+    align-items: center;
+}
+
+.gallery h1 {
+    display: block;
+    text-align: center;
+}
+
+.canvas {
+    display: flex;
+}
+
+.canvas img {
+    width: 200px;
+    height: 200px;
 }

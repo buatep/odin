@@ -74,6 +74,7 @@
 
 .gallery {
     text-align: center;
+    padding: 50px 40px;
 }
 
 .gallery h1 {
@@ -122,19 +123,21 @@ section.testimonials {
   background-color: #3882f6;
   height: 100px;
   margin: 50px 200px;
-  padding: 10px 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 5px;
   border-color: none;
+}
+
+.subs {
+    margin: 40px 40px 40px 40px;
 }
 
 .subs-button button {
   color: #fff;
   background-color: #3882f6;
-  flex: 1;
   padding: 5px 25px;
-  margin: 0px 0px 0px 150px;
 }
 
 /* Footer */
